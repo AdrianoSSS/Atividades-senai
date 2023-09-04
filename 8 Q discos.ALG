@@ -1,0 +1,42 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+cor : caracter
+verde : real
+azul : real
+amarelo : real
+vermelho : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ //solicitando cor
+escreval("coloque o DVD: ")
+leia(cor)
+limpatela
+
+verde <- 10.00
+azul <- 20.00
+amarelo <- 30.00
+vermelho <- 40.00
+
+ se(cor = "verde") entao
+escreval("o disco apresentado tem um valor de 10,00$")
+fimse
+
+se(cor = "azul") entao
+escreval("o disco apresentado tem um valor de 20,00$")
+fimse
+
+se(cor = "amarelo") entao
+escreval("o disco apresentado tem um valor de 30,00$")
+fimse
+
+se(cor = "vermelho") entao
+escreval("o disco apresentado tem um valor de 40,00$")
+fimse
+Fimalgoritmo
