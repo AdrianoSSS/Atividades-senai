@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome : caracter
 
 notaA : real
@@ -17,7 +17,7 @@ resultado : real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
   // solicitando dados
 escreval("digite seu nome : ")
 leia(nome)
@@ -33,7 +33,7 @@ media <- notaA + notaB
 
 resultado <- media / 2
 
-      //mostrando dados ao usuário
+      //mostrando dados ao usuÃ¡rio
 
 escreval("notaA : ",notaA)
 escreval("notaB: ",notaB)
@@ -44,7 +44,7 @@ se(media < 4) entao
 escreval("Reprovado")
 fimse
 se(media >=4) e (media < 6) entao
-escreval("Recuperação)
+escreval("RecuperaÃ§Ã£o)
 fimse
 se(media >=6) entao
 escreval("Aprovado")
