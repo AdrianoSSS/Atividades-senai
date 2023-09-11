@@ -1,0 +1,48 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 11/09/2023
+Var
+// Seção de Declarações das variáveis 
+altura : real
+peso : real
+sexo : caracter
+pesoM : real
+PesoF : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  //solicitando dados
+escreval("digite sua altura : ")
+leia(altura)
+
+escreval("digite seu peso : ")
+leia(peso)
+limpatela
+
+escreval("~~~~~~~~~~~~~~~~~~~~~~~~~")
+escreva("")
+escreval(" M | MASCULINO | ")
+escreval(" F | FEMININO | ")
+escreva("")
+escreval("~~~~~~~~~~~~~~~~~~~~~~~~~")
+escreval(" Qual seu sexo ? ")
+leia(sexo)
+limpatela
+
+escolha sexo
+
+caso "M"
+ pesoM <- (peso * altura) * 0.50
+ escreval("Peso ideal : ",pesoM)
+ caso "F"
+ pesoF <- (peso * altura) * 0.40
+ escreval("Peso ideal : ",pesoF)
+ fimescolha
+
+
+
+
+Fimalgoritmo
