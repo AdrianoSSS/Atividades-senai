@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 MacaA : real
 MacaB : real
 makgminimo : real
@@ -25,13 +25,13 @@ moresultadoB : real
 acimadamedia: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
   //solicitando dados
-escreval("Digite a quantidade minima de maçãs em kg : ")
+escreval("Digite a quantidade minima de maÃ§Ã£s em kg : ")
 leia(macaA)
 limpatela
 
-escreval("Digite a quantidade maxima de maçãs em kg : ")
+escreval("Digite a quantidade maxima de maÃ§Ã£s em kg : ")
 leia(macaB)
 limpatela
 
@@ -76,10 +76,10 @@ fimse
 
 
  
-escreval("maçãA : ",macaA)
-escreval("maçãB : ",macaB)
-escreval("resultado minimo de maçãs :",maresultadoA)
-escreval("resultado maximo de maçãs :",maresultadoB)
+escreval("maÃ§Ã£A : ",macaA)
+escreval("maÃ§Ã£B : ",macaB)
+escreval("resultado minimo de maÃ§Ã£s :",maresultadoA)
+escreval("resultado maximo de maÃ§Ã£s :",maresultadoB)
 escreval("")
 escreval("morangoA :", morangoA)
 escreval("morangoB :", morangoB)
