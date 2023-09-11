@@ -1,0 +1,45 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e L�gica de Programa��o] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 11/09/2023
+Var
+// Se��o de Declara��es das vari�veis 
+numeroum : inteiro
+numerodois : inteiro
+operacao : caracter
+resultado : real
+
+Inicio
+// Se��o de Comandos, procedimento, fun��es, operadores, etc... 
+  //solicitando dados
+escreval("digite o primeiro n�mrero : ")
+leia(numeroum)
+
+escreval("digite o segundo n�mrero : ")
+leia(numerodois)
+
+escreval("digite a operacao : ")
+leia(operacao)
+
+limpatela
+
+ //calculando dados
+ESCOLHA operacao
+ caso "+"
+resultado <- numeroum + numerodois
+ caso "-"
+resultado <- numeroum - numerodois
+ caso "*"
+resultado <- numeroum * numerodois
+ caso "/"
+resultado <- numeroum / numerodois
+outrocaso
+escreva("A opera��o � inv�lida !")
+fimescolha
+
+escreval("resultado : ",resultado)
+
+
+Fimalgoritmo
