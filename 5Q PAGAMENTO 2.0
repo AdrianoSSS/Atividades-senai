@@ -1,0 +1,62 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 11/09/2023
+Var
+   // Seção de Declarações das variáveis
+   produto : real
+   formapagamento : inteiro
+   desconto : real
+   parcela : real
+   valorpar : real
+   total :  real
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   //solicitando dados
+   escreval("valor do produto : ")
+   leia(produto)
+   limpatela
+
+
+   escreval("~~~~FORMAS DE PAGAMENTO~~~~")
+   escreva("")
+   escreval(" 1 | Á VISTA | ")
+   escreval(" 2 | Á PRAZO | ")
+   escreva("")
+   escreval("~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+   escreval("Qual será sua forma de pagamento")
+   leia(formapagamento)
+   limpatela
+
+   //calculando
+   escolha formapagamento
+   caso 1
+      escreval("Valor do produto : ",produto)
+      escreval("forma de pagamento : Á VISTA")
+      desconto <- produto * 0.1
+      escreval("Desconto : ",desconto)
+      total <- produto * 90/100
+      escreval("Total a pagar : ",total)
+
+   caso 2
+      se (formapagamento = 2) entao
+         escreva("Números de parcelas : ")
+         leia(parcela)
+      fimse
+      se(parcela > 6)entao
+   escreval("~~número de parcelas acima do permitido!~~")
+senao
+escreval("Valor do produto : ",produto)
+escreval("forma de pagamento : Á PRAZO")
+      valorpar <- produto / parcela
+      escreval("valor por parcela : ",valorpar)
+      total <- produto
+      escreval("total a pagar : ",total)
+      fimse
+   fimescolha
+Fimalgoritmo
