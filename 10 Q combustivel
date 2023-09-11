@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina  :  [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 04/09/2023
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    Opcao : caracter
    A : caracter
    G : caracter
@@ -22,9 +22,9 @@ Var
    valorG : real
    valorfinal : real
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    // solicitando pedido
-   escreval("tipo de combustÌvel vai querer A pra ¡lcool e G pra GasolÌna")
+   escreval("tipo de combust√≠vel vai querer A pra √Ålcool e G pra Gasol√≠na")
    leia(opcao)
    limpatela
 
@@ -39,13 +39,13 @@ Inicio
    fimse
 
    Se(opcao <> "A") ou (opcao <>"G") entao
-    escreval("Compra n„o pode ser efetuada")
+    escreval("Compra n√£o pode ser efetuada")
       fimalgoritmo
    fimse
 
    //calculando
-   A <- "¡LCOOL"
-   G <- "GASOLÕNA"
+   A <- "√ÅLCOOL"
+   G <- "GASOL√çNA"
    tip <- opcao
    precoA <- 3.79
    PrecoG <- 6.59
@@ -56,7 +56,7 @@ Inicio
    valorfinal <- descontoG1 *  valorG
    valorfinal <- descontoG2 *  valorG
    //exibindo dados
-   escreval("tipo de combustÌvel : ",tip)
+   escreval("tipo de combust√≠vel : ",tip)
    se(opcao = "A") entao
       escreval("valor : ",valorA)
    fimse
