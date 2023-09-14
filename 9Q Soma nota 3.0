@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 14/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i : inteiro
    nota : real
    soma : real
@@ -13,16 +13,16 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para i de 1 ate 2 passo 1 faca
-      escreval("informe a ", i ,"° nota : ")
+      escreval("informe a ", i ,"Â° nota : ")
       leia(nota)
 
       enquanto (nota < 0) ou (nota > 10) faca
-         escreval("nota informada é invalida!!")
+         escreval("nota informada Ã© invalida!!")
          escreval("digite novamente!!")
          escreval("")
-         escreval("informe a ", i ,"° nota : ")
+         escreval("informe a ", i ,"Â° nota : ")
          leia(nota)
 
 
